@@ -1,0 +1,172 @@
+<html>
+    <head>
+        <title>
+            Main Menu
+        </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Candal">
+        <link href="/root/Documents/Project/public/css/style.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <link rel="stylesheet" href="../public/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../public/css/bootstrap-theme.min.css">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">        <script src="../public/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Candal">
+        <link rel="stylesheet" type="text/css" href="../public/css/style.css">
+        <style>
+            .navbar {min-height: 80px;}
+            .navbar-brand {
+                padding: 0 30px;
+                height: 100px;
+                line-height: 110px;
+                            }
+
+            .navbar-toggle {
+  /* (80px - button height 34px) / 2 = 23px */
+  margin-top: 23px;
+  padding: 9px 10px !important;
+                            }
+
+            @media (min-width: 768px) {
+            .navbar-nav > li > a {
+    /* (80px - line-height of 27px) / 2 = 26.5px */
+    padding-top: 26.5px;
+    padding-bottom: 26.5px;
+    line-height: 27px;
+                            }
+                            }
+            .navbar-nav.navbar-center {
+                position: absolute;
+                left: 70%;
+                transform: translatex(-50%);
+                }
+                .bg-image{
+                background-image: url(/root/Documents/Pharmacy/public/images/bg.jpg);
+                filter: blur(3px);
+                -webkit-filter: blur(3px);
+                height: 100%; 
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+               
+            position: relative;}
+                .bg-text {
+                background-color: rgb(0,0,0); 
+                background-color: rgba(0,0,0, 0.4); 
+                color: black;
+                font-weight: bold;
+                border: 3px solid #f1f1f1;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                z-index: 2;
+                width: 80%;
+                padding: 20px;}
+               
+        </style>
+    </head>
+    <body>
+            <section id="banner" class="banner">
+             <div class="bg-color">
+            <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+   
+            <div class="container navigation">
+      
+              <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                        <i class="fa fa-bars"></i>
+                      </button>
+                <a class="navbar-brand">
+                          MEDICAN
+                      </a>
+              </div>
+              
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse navbar-default navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                  <li class=""><a href="index.html">Home</a></li>
+                  <li><a href="#services" >Services</a></li>
+                  <li><a href="#doctors" >Doctors</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                  <li><a href="#pricing">Pricing</a></li>
+                
+                </ul>
+                
+              
+              <ul class="nav navbar-nav navbar-right" >
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                  </ul>
+                </div>
+             </div>
+          </nav>
+          <div class="banner-info">
+                <div class="banner-logo">
+                  
+                </div>
+                <div class="banner-text text-center">
+                  <h1 class="white" style="padding-top:100">Healthcare at your doorstep!!</h1>
+                  <p>Providing medicenes at your doorstep.<br> Doctors and nurses provided at the comfort of your home.</p>
+                </div>
+                <div class="overlay-detail text-center">
+                  <a href="#service"><i class="fa fa-angle-down"></i></a>
+                </div>
+                
+              </div> 
+    </div>
+    </section>
+
+    <section id="services" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-4">
+                    <h2>Our Services</h2>
+                    <p><br>At Medican we believe in providing best experience to our customers.The services<br>
+                         we provide our of top notch and quick solutions has been our top priority so far.</p>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                        <div class="service-info">
+                                <div class="icon">
+                                  <i class="fa fa-stethoscope"></i>
+                                </div>
+                                <div class="icon-info">
+                                  <h4>24 Hour Support</h4>
+                                  <p>Our Premium services will be provided to our customers on 24x7 basis.</p><br><br><br>
+                                </div>
+                              </div>
+                            <div class="service-info">
+                                <div class="icon">
+                                  <i class="fa fa-ambulance"></i>
+                                </div>
+                                <div class="icon-info">
+                                  <h4>Free and Fast Home Delivery</h4>
+                                  <p>We provide medicenes delivered at your doorstep on both doctor prescribed or our suggested medicenes.</p>
+                                </div>           
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <div class="service-info">
+                    <div class="icon">
+                        <i class="fa fa-user-md"></i>
+                    </div>
+                    <div class="icon-info">
+                        <h4>Medical Counseling</h4>
+                        <p>Our highly professional team of doctors provide best health care services in the city.You can either meet doctors at thier clinics or book an appointment at your home for a slightly higher price.</p>
+                    </div>
+                </div>
+                <div class="service-info">
+                    <div class="icon">
+                      <i class="fa fa-medkit"></i>
+                    </div>
+                    <div class="icon-info">
+                      <h4>Premium Healthcare</h4>
+                      <p>Our services are of premium quality with top notch equipments accesible to each and every customer at reasonable prices.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    </body>
+</html>
